@@ -25,9 +25,9 @@ The PCB was designed in Altium CircuitMaker. You can download the project [here]
 
 One idea I had but haven't had the time to fully execute was to replace the old Pulsar PCB carrier with a newer CNC milled version. The original watch used an obsolete #355 watch battery. These are no longer manufactured, and you must now use #357 batteries with spacers. These spacers can cause issues if not precisely made due to them binding to the battery or putting too much pressure on the watch case and causing incorrect seals. Furthermore #357 batteries have a smaller capacity than the original #357 (due to their smaller size) and thus must be changed more frequently. I modeled out the original PCB carrier as a 3D rendering, which should allow me to change the battery to either support a #355 natively or to swap it out entirely for a higher-capacity (and rechargeable) battery like  a CR2032. You can download the STL files for this carrier [here](https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/resources/pulsar_p2_carrier.stl) or get the raw design itself by going [here](https://a360.co/2O2gdrLSetting). 
 
-<img style="float: right;width: 49%" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20top.png">
-<img style="float: right;width: 49%" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20bottom.png">
-&nbsp;
+<img align="left" width="400" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20top.png">
+<img  align="right" width="400" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20bottom.png">
+&nbsp;&nbsp;&nbsp;
 
 #### Source code 
 
