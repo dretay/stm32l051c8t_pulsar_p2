@@ -25,9 +25,9 @@ The PCB was designed in Altium CircuitMaker. You can download the project [here]
 
 One idea I had but haven't had the time to fully execute was to replace the old Pulsar PCB carrier with a newer CNC milled version. The original watch used an obsolete #355 watch battery. These are no longer manufactured, and you must now use #357 batteries with spacers. These spacers can cause issues if not precisely made due to them binding to the battery or putting too much pressure on the watch case and causing incorrect seals. Furthermore #357 batteries have a smaller capacity than the original #357 (due to their smaller size) and thus must be changed more frequently. I modeled out the original PCB carrier as a 3D rendering, which should allow me to change the battery to either support a #355 natively or to swap it out entirely for a higher-capacity (and rechargeable) battery like  a CR2032. You can download the STL files for this carrier [here](https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/resources/pulsar_p2_carrier.stl) or get the raw design itself by going [here](https://a360.co/2O2gdrLSetting). 
 
-<img align="left" width="400" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20top.png">
-<img  align="right" width="400" src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20bottom.png">
-&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20top.png" >
+<img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/p2%20plate%20v8%20bottom.png" >
+
 
 #### Source code 
 
@@ -41,8 +41,10 @@ Beyond these libraries the project itself was built in STM32CubeIDE. The softwar
 #### Energy Usage
 
 A major challenge with this project was getting energy usage as low as possible and characterizing the watch's behavior under different levels of battery charge. I used a Keithley 2450 SourceMeter to build a discharge model for the two LR44 batteries I was using to power the watch. I fixed the batteries together with a clamp with a small strip of aluminum on each side. I then used some kelvin clips to connect the batteries to the sourcemeter so I could characterize them.
-<img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5713.jpg" align="left" width="50%"><img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5711.jpg" align="right" width="50%">
-&nbsp;
+
+<img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5713.jpg" >
+<img src="https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5711.jpg" >
+
 I was then able to load the resulting model into a Keithley 2281s Battery Simulator and ensure proper behavior a lower battery charge levels.
 ![](https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5748.jpg)
 
