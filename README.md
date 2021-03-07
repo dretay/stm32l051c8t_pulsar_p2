@@ -47,5 +47,3 @@ A major challenge with this project was getting energy usage as low as possible 
 
 I was then able to load the resulting model into a Keithley 2281s Battery Simulator and ensure proper behavior a lower battery charge levels.
 ![](https://github.com/dretay/stm32l051c8t_pulsar_p2/raw/master/pics/IMG_5748.jpg)
-
-- https://www.microchip.com/DevelopmentTools/ProductDetails/ATATMEL-ICE)
