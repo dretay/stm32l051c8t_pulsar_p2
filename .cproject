@@ -85,9 +85,9 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/home/drew/src/pushbutton/src"/>
+                                    <listOptionValue builtIn="false" value="/Users/andrewt/src/stm32l051c8t_pulsar_p2/lib/pushbutton/src"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/home/drew/src/timer/src"/>
+                                    <listOptionValue builtIn="false" value="/Users/andrewt/src/stm32l051c8t_pulsar_p2/lib/timer/src"/>
                                     								
                                 </option>
                                 								

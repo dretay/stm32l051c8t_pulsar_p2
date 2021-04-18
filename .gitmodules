@@ -1,0 +1,6 @@
+[submodule "lib/pushbutton"]
+	path = lib/pushbutton
+	url = git@github.com:dretay/stm32_pushbutton.git
+[submodule "lib/timer"]
+	path = lib/timer
+	url = git@github.com:dretay/stm32_timer.git
